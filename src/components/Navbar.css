@@ -1,0 +1,63 @@
+/* Navbar Container */
+.navbar {
+  background-color: #fff;
+  padding: 15px 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Flex Container for Navbar Items */
+.navbar-content {
+  display: flex;
+  align-items: center; /* Vertically center items */
+  justify-content: space-between; /* Space between logo and other elements */
+}
+
+/* Logo Section: Image + Text side by side */
+.logo {
+  display: flex;
+  align-items: center; /* Vertically center image & text */
+  gap: 8px; /* Space between the logo and text */
+}
+
+.logo img {
+  width: 70px;
+  height: 40px;
+}
+
+.logo span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Nav Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-links li a:hover {
+  color: #007bff;
+}
+
+/* Sign Up Button */
+.signup-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-btn:hover {
+  background-color: #0056b3;
+}

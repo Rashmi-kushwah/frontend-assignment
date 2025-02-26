@@ -1,0 +1,29 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .get-started-btn {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #ffb700;
+  }
+  
